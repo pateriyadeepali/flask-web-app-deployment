@@ -15,7 +15,7 @@ def home():
     """
 
 @app.route("/info")
-def lwcontact():
+def contact():
     return """
     <h2>About Me</h2>
     <p><strong>Name:</strong> Deepali Pateriya</p>
