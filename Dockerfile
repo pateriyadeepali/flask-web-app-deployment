@@ -6,10 +6,9 @@ COPY app.py .
 
 COPY requirement.txt .
 
+RUN pip3 install -r requirement.txt
 
-RUN pip3 install --user -r requirement.txt
-
-RUN pip3 install --user flask
+RUN pip3 install flask
 
 EXPOSE 5000
 
