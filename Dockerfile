@@ -6,7 +6,8 @@ COPY app.py .
 
 COPY requirements.txt .
 
-RUN pip3 install --user -r requirements.txt
+
+RUN pip3 install --user -r requirement.txt
 
 RUN pip3 install --user flask
 
