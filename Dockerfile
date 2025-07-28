@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app.py .
 
-COPY requirements.txt .
+COPY requirement.txt .
 
 
 RUN pip3 install --user -r requirement.txt
